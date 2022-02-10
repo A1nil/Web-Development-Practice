@@ -1,0 +1,155 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color:  rgba(48, 174, 179, 0.5);
+}
+header{
+    display: flex;
+    height: 30px;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.navbar{
+    width: 60%;
+}
+.navbar a{
+    text-decoration: none;
+    padding-right: 20px;
+    font-size: 20px;
+    color: black;
+    font-weight: lighter;
+}
+.navbar a:hover{
+    color: white;
+    transition: 0.6s;
+    font-size: 22px;
+}
+.searchbar{
+    width: 40%;
+    font-size: 20px;
+    text-align: right;
+    font-weight: lighter;
+}
+.searchbar:hover{
+    font-size: 22px;
+    color: white;
+}
+.searchbar input{
+    border-radius: 12px;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    margin: 0px;
+    margin-top: 50px;
+    padding: 0px;
+    align-items: center;
+}
+.picture{
+    width: 50%;
+    background-image: url("Download/bus-gcdf424244_1280.png");
+    background-size: 100%;
+    background-position: center;
+    border-radius: 12px;
+    margin: 5px;
+    height: 350px;
+}
+.form{
+    width: 49%;
+    justify-content: center;
+}
+.form h1{
+    padding: 10px;
+    margin-top: 60px;
+    font-weight: lighter;
+    text-align: justify;
+}
+.link{
+    margin-top: 40px;
+    padding: 10px;
+    text-align: center;
+}
+.link button{
+    font-size: 20px;
+    background: none;
+}
+.link a{
+    text-decoration: none;
+    color: black;
+}
+.link button:hover{
+    color: turquoise;
+    background-color: white;
+    border: 2px solid white;
+    font-size: 21px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.link a:hover{
+    color: turquoise;
+}
+.footer{
+    display: flex;
+    font-size: 20px;
+    font-weight: lighter;
+    justify-content: center;
+    word-wrap: break-word;
+    /*margin-bottom: 30px;*/
+    padding: 10px;
+    height: 25px;
+}
+.form1{
+    width: 49%;
+    justify-content: center;
+}
+.form1 h1{
+    padding: 10px;
+    margin-top: 60px;
+    font-weight: lighter;
+    text-align: justify;
+}
+.link1{
+    margin-top: 40px;
+    padding: 10px;
+    text-align: center;
+}
+.link1 button{
+    font-size: 20px;
+    background: none;
+}
+.link1 a{
+    text-decoration: none;
+    color: black;
+}
+.link1 button:hover{
+    color: turquoise;
+    background-color: white;
+    border: 2px solid white;
+    font-size: 21px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.link1 a:hover{
+    color: turquoise;
+}
+.picture1{
+    width: 50%;
+    background-image: url("Download/car-g854a55295_1280.png");
+    background-size: 100%;
+    background-position: center;
+    border-radius: 12px;
+    margin: 5px;
+    height: 350px;
+}
+.car{
+    width: 100%;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+.car a{
+    text-decoration: none;
+    color: crimson;
+}

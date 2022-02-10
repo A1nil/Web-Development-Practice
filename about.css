@@ -1,0 +1,62 @@
+body{
+    background-color:  rgba(48, 174, 179, 0.5);
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 100vh;
+}
+header{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 40px;
+    padding: 10px;
+}
+.navbar a{
+    text-decoration: none;
+    padding-right: 20px;
+    font-size: 20px;
+    color: black;
+    font-weight: lighter;
+}
+.navbar a:hover{
+    color: white;
+    transition: 0.6s;
+    font-size: 22px;
+}
+.navbar{
+    width: 60%;
+}
+.searchbar{
+    width: 40%;
+    font-size: 20px;
+    text-align: right;
+    font-weight: lighter;
+}
+.searchbar:hover{
+    font-size: 22px;
+    color: white;
+}
+.footer{
+    display: flex;
+    font-size: 20px;
+    font-weight: lighter;
+    justify-content: center;
+    word-wrap: break-word;
+    padding: 10px;
+    height: 25px;
+}
+main{
+    width: 100%;
+    height: 400px;
+    text-align: justify;
+    padding: 10px;
+    margin: 10px;
+}
+main h1{
+    text-align: center;
+    padding-top: 40px;
+}
+main p{
+    width: 97%;
+}
